@@ -3,15 +3,18 @@
         {
             "name": "Linux",
             "includePath": [
+                "${workspaceFolder}/**",
                 "${ESP_HOME}/xtensa-lx106-elf/xtensa-lx106-elf/include",
                 "${SMING_HOME}",
-                "${SMING_HOME}/system/include",
-                "${workspaceRoot}/lib"
+                "${SMING_HOME}/SmingCore",
+                "${SMING_HOME}/System/incldue"
             ],
-            "browse": {
-                "limitSymbolsToIncludedHeaders": true,
-                "databaseFilename": "${workspaceRoot}/.vscode/browse.vc.db"
-            }
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
         }
-    ]
+    ],
+    "version": 4
 }
